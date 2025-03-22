@@ -11,7 +11,7 @@ dp = Dispatcher()
 @dp.message(Command("start"))
 async def start_cmd(message: types.Message):
     
-    await message.answer("Assalomu alaykum! Botimizga xush kelibsiz!")
+    await message.answer("NAGAp")
 
 
 if __name__ == "__main__":
